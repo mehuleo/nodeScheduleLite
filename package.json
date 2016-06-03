@@ -1,0 +1,20 @@
+{
+    "name": "nodeschedulelite",
+    "version": "1.0.0",
+    "description": "A Light weight Node.js scheduler",
+    "main": "index.js",
+    "scripts": {
+        "start": "mkdir logs & node index.js > logs/$( date '+%Y-%m-%d_%H-%M-%S' ).log &",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/mehuleo/nodeScheduleLite.git"
+    },
+    "author": "Mehul",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/mehuleo/nodeScheduleLite/issues"
+    },
+    "homepage": "https://github.com/mehuleo/nodeScheduleLite#readme"
+}
